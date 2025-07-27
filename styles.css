@@ -1,0 +1,53 @@
+* {
+    /* border: 1px solid red; */
+    font-family: "Roboto";
+}
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+main {
+    box-sizing: border-box;
+    background-color: white;
+    width: 500px;
+}
+
+header {
+    display: flex;
+}
+.name{
+    padding-right: 68%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.profile {
+    border-radius: 100%;
+    width: 7%;
+    padding: 10px;
+}
+.elipsis{
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+
+.photo {
+    width: 500px;
+    height: 400px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 7px;
+}
+.bottom {
+    padding: 10px;
+}
+
+
